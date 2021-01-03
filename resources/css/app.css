@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply bg-light-blue text-white no-underline rounded-lg text-sm py-2 px-4;
+}
+
+.card {
+    @apply bg-white rounded-lg shadow p-5;
+}
